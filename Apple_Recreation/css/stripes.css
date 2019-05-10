@@ -133,6 +133,9 @@ body {
   text-decoration: none;
   color: rgb(0, 112, 201);
 }
+.line_break_phone {
+  display: none;
+}
 @media screen and (max-width: 700px) {
   .promo2 div.phone_float {
     display: none;
@@ -145,6 +148,23 @@ body {
     height: 351px;
     width: 279px;
     display: inline-block;
+  }
+  .promo1 div.heading {
+    font-size: 24px;
+  }
+  .promo1 div.text {
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+  }
+  .promo2 a {
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+  }
+  .line_break_phone {
+    display: block;
+  }
+  .line_break_screen {
+    display: none;
   }
 }
 .stripe_promo3_container {
@@ -199,6 +219,10 @@ body {
     height: 309px;
     width: 220px;
     display: inline-block;
+  }
+  .promo3 a {
+    font-size: 17px;
+    color: rgb(17, 17, 17);
   }
 }
 .stripe_promo4_container {
